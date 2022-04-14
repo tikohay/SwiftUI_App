@@ -17,11 +17,11 @@ struct ContentView: View {
     fileprivate func showAlert() -> some View {
         return Button("Button") {
             self.isError = true
-        }.alert(isPresented: $isError, content: {
-            Alert(title: Text("Test"), message: Text("Hello"), primaryButton: .destructive(Text("hey"), action: {
-                print("test")
-            }), secondaryButton: .cancel())
-        })
+        }.actionSheet(isPresented: $isError) {
+            ActionSheet(title: Text("hello"), message: Text("test"), buttons: [.cancel(), .default(Text("Hello"), action: {
+                print("hello")
+            })])
+        }
     }
 }
 
