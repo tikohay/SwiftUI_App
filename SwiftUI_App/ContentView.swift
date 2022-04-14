@@ -8,26 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var section = 0
+    @State var percentSection = 0
     @State var isOn = false
+    var settingsTime = ["5 min", "10 min", "15 min"]
+    var percents = ["10 percents", "50 percents", "100 percents"]
     
     var body: some View {
-        VStack {
-            ZStack {
-                HStack {
-                    VStack {
-                        Text("Кошелек")
-                        Spacer().frame(height: 10)
-                        Text("Профиль")
+        NavigationView {
+            Form {
+                Picker(selection: $section) {
+                    ForEach(0..<settingsTime.count) {
+                        Text(settingsTime[$0])
                     }
-                    Spacer()
+                } label: {
+                    Text("Time")
                 }
-                RoundedRectangle(cornerRadius: 10).fill(.yellow).offset(x: isOn ? 100 : 0)
-                Text("Что-то на экране")
-            }
-            Toggle(isOn: $isOn) {
-                Text("Показать настройки")
-            }.padding()
-        }.animation(.spring(response: 0.5, dampingFraction: 0.1, blendDuration: 0.7))
+                Toggle(isOn: $isOn) {
+                    Text("Plane mode").foregroundColor(.pink)
+                }
+                Picker(selection: $percentSection) {
+                    ForEach(0..<percents.count) {
+                        Text(percents[$0])
+                    }
+                } label: {
+                    Text("")
+                }
+            }.navigationTitle("Settings")
+        }
     }
 }
 
