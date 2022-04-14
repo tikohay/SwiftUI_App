@@ -6,36 +6,63 @@
 //
 
 import SwiftUI
+import AVFoundation
+
+class PlayerViewModel: ObservableObject {
+    @Published public var maxDuration = 0.0
+    private var player: AVAudioPlayer?
+    
+    public func play() {
+        playSound(name: "test")
+        player?.play()
+    }
+    
+    public func stop() {
+        player?.stop()
+    }
+    
+    public func setTime(value: Float) {
+        guard let time = TimeInterval(exactly: value) else { return }
+        player?.currentTime = time
+        player?.play()
+    }
+    
+    private func playSound(name: String) {
+        guard let audioPath = Bundle.main.path(forResource: name, ofType: "mp3") else { return }
+        do {
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath))
+            maxDuration = player?.duration ?? 0.0
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+}
 
 struct ContentView: View {
     
-    @State var section = 0
-    @State var percentSection = 0
-    @State var isOn = false
-    var settingsTime = ["5 min", "10 min", "15 min"]
-    var percents = ["10 percents", "50 percents", "100 percents"]
+    @State private var progress: Float = 0
+    @ObservedObject var viewModel = PlayerViewModel()
     
     var body: some View {
-        NavigationView {
-            Form {
-                Picker(selection: $section) {
-                    ForEach(0..<settingsTime.count) {
-                        Text(settingsTime[$0])
-                    }
+        VStack {
+            Slider(value: Binding(get: {
+                self.progress
+            }, set: { newValue in
+                self.progress = newValue
+            }), in: 0...100).padding()
+            HStack {
+                Button {
+                    viewModel.play()
                 } label: {
-                    Text("Time")
-                }
-                Toggle(isOn: $isOn) {
-                    Text("Plane mode").foregroundColor(.pink)
-                }
-                Picker(selection: $percentSection) {
-                    ForEach(0..<percents.count) {
-                        Text(percents[$0])
-                    }
+                    Text("Play")
+                }.frame(width: 100, height: 50).background(.orange).cornerRadius(10)
+                Spacer().frame(width: 20)
+                Button {
+                    viewModel.stop()
                 } label: {
-                    Text("")
-                }
-            }.navigationTitle("Settings")
+                    Text("Stop")
+                }.frame(width: 100, height: 50).background(.orange).cornerRadius(10)
+            }
         }
     }
 }

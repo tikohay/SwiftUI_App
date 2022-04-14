@@ -14,6 +14,7 @@
 		E80C27EA28082967002E135D /* SwiftUI_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C27E928082967002E135D /* SwiftUI_AppTests.swift */; };
 		E80C27F428082967002E135D /* SwiftUI_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C27F328082967002E135D /* SwiftUI_AppUITests.swift */; };
 		E80C27F628082967002E135D /* SwiftUI_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C27F528082967002E135D /* SwiftUI_AppUITestsLaunchTests.swift */; };
+		E80C28032808831F002E135D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C28022808831F002E135D /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E80C27EF28082967002E135D /* SwiftUI_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80C27F328082967002E135D /* SwiftUI_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppUITests.swift; sourceTree = "<group>"; };
 		E80C27F528082967002E135D /* SwiftUI_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E80C28022808831F002E135D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E80C27D828082965002E135D /* SwiftUI_AppApp.swift */,
 				E80C27DA28082965002E135D /* ContentView.swift */,
+				E80C28022808831F002E135D /* SecondView.swift */,
 				E80C27DC28082966002E135D /* Assets.xcassets */,
 				E80C27DE28082966002E135D /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80C28032808831F002E135D /* SecondView.swift in Sources */,
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
 				E80C27D928082965002E135D /* SwiftUI_AppApp.swift in Sources */,
 			);
