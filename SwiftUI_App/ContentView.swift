@@ -8,20 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isError = false
+    @State var isOn = false
     
     var body: some View {
-        showAlert()
-    }
-    
-    fileprivate func showAlert() -> some View {
-        return Button("Button") {
-            self.isError = true
-        }.actionSheet(isPresented: $isError) {
-            ActionSheet(title: Text("hello"), message: Text("test"), buttons: [.cancel(), .default(Text("Hello"), action: {
-                print("hello")
-            })])
-        }
+        VStack {
+            ZStack {
+                HStack {
+                    VStack {
+                        Text("Кошелек")
+                        Spacer().frame(height: 10)
+                        Text("Профиль")
+                    }
+                    Spacer()
+                }
+                RoundedRectangle(cornerRadius: 10).fill(.yellow).offset(x: isOn ? 100 : 0)
+                Text("Что-то на экране")
+            }
+            Toggle(isOn: $isOn) {
+                Text("Показать настройки")
+            }.padding()
+        }.animation(.spring(response: 0.5, dampingFraction: 0.1, blendDuration: 0.7))
     }
 }
 
