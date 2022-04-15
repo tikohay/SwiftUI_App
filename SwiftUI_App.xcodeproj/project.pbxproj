@@ -17,6 +17,7 @@
 		E80C28032808831F002E135D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C28022808831F002E135D /* SecondView.swift */; };
 		E8A51D372809B09900601B40 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D362809B09900601B40 /* ActivityView.swift */; };
 		E8A51D392809B1FB00601B40 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D382809B1FB00601B40 /* ThirdView.swift */; };
+		E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D3E2809B68B00601B40 /* FourthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E80C28022808831F002E135D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		E8A51D362809B09900601B40 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E8A51D382809B1FB00601B40 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		E8A51D3E2809B68B00601B40 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				E80C27D828082965002E135D /* SwiftUI_AppApp.swift */,
-				E80C27DA28082965002E135D /* ContentView.swift */,
-				E80C28022808831F002E135D /* SecondView.swift */,
-				E8A51D382809B1FB00601B40 /* ThirdView.swift */,
-				E8A51D362809B09900601B40 /* ActivityView.swift */,
+				E8A51D3B2809B60800601B40 /* First */,
+				E8A51D3C2809B61200601B40 /* Second */,
+				E8A51D3A2809B5F800601B40 /* Third  */,
+				E8A51D3D2809B61800601B40 /* Fourth */,
 				E80C27DC28082966002E135D /* Assets.xcassets */,
 				E80C27DE28082966002E135D /* Preview Content */,
 			);
@@ -134,6 +136,39 @@
 				E80C27F528082967002E135D /* SwiftUI_AppUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_AppUITests;
+			sourceTree = "<group>";
+		};
+		E8A51D3A2809B5F800601B40 /* Third  */ = {
+			isa = PBXGroup;
+			children = (
+				E8A51D382809B1FB00601B40 /* ThirdView.swift */,
+				E8A51D362809B09900601B40 /* ActivityView.swift */,
+			);
+			path = "Third ";
+			sourceTree = "<group>";
+		};
+		E8A51D3B2809B60800601B40 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E80C27DA28082965002E135D /* ContentView.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		E8A51D3C2809B61200601B40 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				E80C28022808831F002E135D /* SecondView.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		E8A51D3D2809B61800601B40 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				E8A51D3E2809B68B00601B40 /* FourthView.swift */,
+			);
+			path = Fourth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +305,7 @@
 				E8A51D392809B1FB00601B40 /* ThirdView.swift in Sources */,
 				E8A51D372809B09900601B40 /* ActivityView.swift in Sources */,
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
+				E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */,
 				E80C27D928082965002E135D /* SwiftUI_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
