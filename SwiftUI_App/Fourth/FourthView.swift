@@ -46,6 +46,7 @@ struct DetailView: View {
 struct FourthView: View {
     
     @ObservedObject var userBuy = UserBuy()
+    @State var selector: String?
     
     let coffee = "coffee"
     let tea = "tea"
@@ -55,12 +56,23 @@ struct FourthView: View {
             VStack(spacing: 30) {
                 Text("You chose \(userBuy.caps) items")
                 Text("Что желаете ?")
-                NavigationLink(coffee, destination: {
-                    DetailView(text: coffee)
-                })
-                NavigationLink(tea, destination: {
+                NavigationLink(tag: "act1", selection: $selector) {
                     DetailView(text: tea)
-                })
+                } label: {
+                    EmptyView()
+                }
+                NavigationLink(tag: "act2", selection: $selector) {
+                    DetailView(text: coffee)
+                } label: {
+                    EmptyView()
+                }
+                
+                Button {
+                    selector = "act1"
+                } label: {
+                    Text("button")
+                }
+
             }
                 .navigationBarTitle("Title", displayMode: .inline)
         }
