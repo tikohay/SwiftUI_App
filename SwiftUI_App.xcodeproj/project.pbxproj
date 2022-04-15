@@ -20,6 +20,7 @@
 		E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D3E2809B68B00601B40 /* FourthView.swift */; };
 		E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D412809C2B000601B40 /* MainTabView.swift */; };
 		E8A51D452809C9CC00601B40 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D442809C9CC00601B40 /* TextView.swift */; };
+		E8A51D482809CE3400601B40 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D472809CE3400601B40 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E8A51D3E2809B68B00601B40 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		E8A51D412809C2B000601B40 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		E8A51D442809C9CC00601B40 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		E8A51D472809CE3400601B40 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				E8A51D3D2809B61800601B40 /* Fourth */,
 				E8A51D402809C29900601B40 /* MainTabView */,
 				E8A51D432809C9BF00601B40 /* Text */,
+				E8A51D462809CE2500601B40 /* TextField */,
 				E80C27DC28082966002E135D /* Assets.xcassets */,
 				E80C27DE28082966002E135D /* Preview Content */,
 			);
@@ -191,6 +194,14 @@
 				E8A51D442809C9CC00601B40 /* TextView.swift */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		E8A51D462809CE2500601B40 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				E8A51D472809CE3400601B40 /* TextFieldView.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +342,7 @@
 				E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */,
 				E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */,
 				E80C27D928082965002E135D /* SwiftUI_AppApp.swift in Sources */,
+				E8A51D482809CE3400601B40 /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
