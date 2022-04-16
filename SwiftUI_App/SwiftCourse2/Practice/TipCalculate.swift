@@ -45,9 +45,3 @@ struct TipCalculate: View {
         }
     }
 }
-
-struct TipCalculate_Previews: PreviewProvider {
-    static var previews: some View {
-        TipCalculate()
-    }
-}

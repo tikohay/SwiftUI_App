@@ -32,9 +32,3 @@ struct FormView: View {
         }
     }
 }
-
-struct FormView_Previews: PreviewProvider {
-    static var previews: some View {
-        FormView()
-    }
-}

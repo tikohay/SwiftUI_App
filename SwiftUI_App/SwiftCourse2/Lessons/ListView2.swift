@@ -30,9 +30,3 @@ struct ListView2: View {
         }
     }
 }
-
-struct ListView2_Previews: PreviewProvider {
-    static var previews: some View {
-        ListView2()
-    }
-}

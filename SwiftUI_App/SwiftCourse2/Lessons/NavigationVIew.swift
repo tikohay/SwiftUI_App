@@ -31,9 +31,3 @@ struct TestNavigationView: View {
         users.move(fromOffsets: source, toOffset: destination)
     }
 }
-
-struct NavigationView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestNavigationView()
-    }
-}
