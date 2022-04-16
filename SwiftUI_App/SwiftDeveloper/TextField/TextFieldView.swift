@@ -12,28 +12,28 @@ struct TextfieldView: View {
     @State var text = ""
     
     var body: some View {
-        VStack(spacing: 24) {
-            TextField("Введите логин", text: $text)
-                .redTextField()
+        ZStack {
+            Rectangle().fill(.yellow)
+                .onTapGesture {
+                    hideKeyboard()
+                }
+            VStack(spacing: 24) {
+                TextField("Введите логин", text: $text)
+                    .redTextField()
                 
-            TextField("Введите пароль", text: $text) { changed in
-                print(changed)
-            } onCommit: {
-                print("onCommit")
-            }
-            .modifier(TextFieldModifier())
-            Button {
-                print(text)
-            } label: {
-                Text("Login")
-            }
-            .gesture(
-                TapGesture()
-                    .onEnded({ _ in
-                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-                    })
-            )
-        }.padding()
+                TextField("Введите пароль", text: $text) { changed in
+                    print(changed)
+                } onCommit: {
+                    print("onCommit")
+                }
+                .modifier(TextFieldModifier())
+                Button {
+                    print(text)
+                } label: {
+                    Text("Login")
+                }
+            }.padding()
+        }
     }
 }
 
