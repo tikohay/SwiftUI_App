@@ -79,9 +79,3 @@ struct FourthView: View {
         .environmentObject(userBuy)
     }
 }
-
-struct FourthView_Previews: PreviewProvider {
-    static var previews: some View {
-        FourthView()
-    }
-}

@@ -19,9 +19,3 @@ struct ThirdView: View {
         }
     }
 }
-
-struct ThirdView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThirdView()
-    }
-}

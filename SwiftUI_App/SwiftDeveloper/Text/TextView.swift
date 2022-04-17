@@ -35,9 +35,3 @@ struct TextView: View {
         }
     }
 }
-
-struct TextView_Previews: PreviewProvider {
-    static var previews: some View {
-        TextView()
-    }
-}

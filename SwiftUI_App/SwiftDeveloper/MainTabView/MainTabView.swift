@@ -35,12 +35,6 @@ struct MainTabView: View {
     }
 }
 
-struct MainTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTabView()
-    }
-}
-
 struct HomeView: View {
     
     @State var text: String = "hello"
