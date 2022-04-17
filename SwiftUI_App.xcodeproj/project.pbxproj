@@ -34,6 +34,7 @@
 		E8E61B13280C51B100D29A08 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B12280C51B100D29A08 /* UserSettings.swift */; };
 		E8E61B16280C562900D29A08 /* NavigationLinkSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B15280C562900D29A08 /* NavigationLinkSheetView.swift */; };
 		E8E61B19280C5B4700D29A08 /* SheetTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B18280C5B4700D29A08 /* SheetTransitionView.swift */; };
+		E8E61B1B280C5E7D00D29A08 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B1A280C5E7D00D29A08 /* UserDefaultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		E8E61B12280C51B100D29A08 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		E8E61B15280C562900D29A08 /* NavigationLinkSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkSheetView.swift; sourceTree = "<group>"; };
 		E8E61B18280C5B4700D29A08 /* SheetTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTransitionView.swift; sourceTree = "<group>"; };
+		E8E61B1A280C5E7D00D29A08 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +260,7 @@
 				E8AB5391280B029E0053B549 /* FormView.swift */,
 				E8AB5398280B0F9A0053B549 /* AlertView.swift */,
 				E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */,
+				E8E61B1A280C5E7D00D29A08 /* UserDefaultsView.swift */,
 				E8E61B17280C5B1C00D29A08 /* ViewsTransition */,
 				E8E61B14280C51BE00D29A08 /* ObservedPublishedEnvironment */,
 			);
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E61B1B280C5E7D00D29A08 /* UserDefaultsView.swift in Sources */,
 				E80C28032808831F002E135D /* SecondView.swift in Sources */,
 				E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */,
 				E8E61B11280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift in Sources */,

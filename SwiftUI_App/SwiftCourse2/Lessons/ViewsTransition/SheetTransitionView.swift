@@ -33,9 +33,3 @@ struct MyView5: View {
         }
     }
 }
-
-struct MyView5_Previews: PreviewProvider {
-    static var previews: some View {
-        MyView5()
-    }
-}
