@@ -27,9 +27,3 @@ struct ModifierLessonView: View {
         }
     }
 }
-
-struct ModifierLessonView_Previews: PreviewProvider {
-    static var previews: some View {
-        ModifierLessonView()
-    }
-}
