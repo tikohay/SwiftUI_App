@@ -30,6 +30,8 @@
 		E8AB5399280B0F9A0053B549 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5398280B0F9A0053B549 /* AlertView.swift */; };
 		E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */; };
 		E8E61B0F280C4A5700D29A08 /* ModifiersLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */; };
+		E8E61B11280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B10280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift */; };
+		E8E61B13280C51B100D29A08 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B12280C51B100D29A08 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		E8AB5398280B0F9A0053B549 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCountry.swift; sourceTree = "<group>"; };
 		E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersLesson.swift; sourceTree = "<group>"; };
+		E8E61B10280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedPublishedEnvironment.swift; sourceTree = "<group>"; };
+		E8E61B12280C51B100D29A08 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +254,7 @@
 				E8AB5391280B029E0053B549 /* FormView.swift */,
 				E8AB5398280B0F9A0053B549 /* AlertView.swift */,
 				E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */,
+				E8E61B14280C51BE00D29A08 /* ObservedPublishedEnvironment */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -261,6 +266,15 @@
 				E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		E8E61B14280C51BE00D29A08 /* ObservedPublishedEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				E8E61B10280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift */,
+				E8E61B12280C51B100D29A08 /* UserSettings.swift */,
+			);
+			path = ObservedPublishedEnvironment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +409,7 @@
 			files = (
 				E80C28032808831F002E135D /* SecondView.swift in Sources */,
 				E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */,
+				E8E61B11280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift in Sources */,
 				E8A51D452809C9CC00601B40 /* TextView.swift in Sources */,
 				E8AB5392280B029E0053B549 /* FormView.swift in Sources */,
 				E8AB5390280AFD930053B549 /* NavigationVIew.swift in Sources */,
@@ -405,6 +420,7 @@
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
 				E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */,
 				E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */,
+				E8E61B13280C51B100D29A08 /* UserSettings.swift in Sources */,
 				E8AB5389280AF1540053B549 /* GesturesView.swift in Sources */,
 				E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */,
 				E8AB538B280AF6AD0053B549 /* ListView.swift in Sources */,
