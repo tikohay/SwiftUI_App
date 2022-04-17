@@ -27,9 +27,3 @@ struct AlertView: View {
         }
     }
 }
-
-struct AlertView_Previews: PreviewProvider {
-    static var previews: some View {
-        AlertView()
-    }
-}

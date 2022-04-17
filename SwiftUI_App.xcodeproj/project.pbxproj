@@ -21,6 +21,14 @@
 		E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D412809C2B000601B40 /* MainTabView.swift */; };
 		E8A51D452809C9CC00601B40 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D442809C9CC00601B40 /* TextView.swift */; };
 		E8A51D482809CE3400601B40 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51D472809CE3400601B40 /* TextFieldView.swift */; };
+		E8AB5389280AF1540053B549 /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5388280AF1540053B549 /* GesturesView.swift */; };
+		E8AB538B280AF6AD0053B549 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB538A280AF6AD0053B549 /* ListView.swift */; };
+		E8AB538D280AFBB50053B549 /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB538C280AFBB50053B549 /* ListView2.swift */; };
+		E8AB5390280AFD930053B549 /* NavigationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB538F280AFD930053B549 /* NavigationVIew.swift */; };
+		E8AB5392280B029E0053B549 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5391280B029E0053B549 /* FormView.swift */; };
+		E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5396280B07D20053B549 /* TipCalculate.swift */; };
+		E8AB5399280B0F9A0053B549 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5398280B0F9A0053B549 /* AlertView.swift */; };
+		E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,14 @@
 		E8A51D412809C2B000601B40 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		E8A51D442809C9CC00601B40 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E8A51D472809CE3400601B40 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		E8AB5388280AF1540053B549 /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
+		E8AB538A280AF6AD0053B549 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E8AB538C280AFBB50053B549 /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
+		E8AB538F280AFD930053B549 /* NavigationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVIew.swift; sourceTree = "<group>"; };
+		E8AB5391280B029E0053B549 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		E8AB5396280B07D20053B549 /* TipCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculate.swift; sourceTree = "<group>"; };
+		E8AB5398280B0F9A0053B549 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCountry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				E80C27D828082965002E135D /* SwiftUI_AppApp.swift */,
-				E8A51D3B2809B60800601B40 /* First */,
-				E8A51D3C2809B61200601B40 /* Second */,
-				E8A51D3A2809B5F800601B40 /* Third  */,
-				E8A51D3D2809B61800601B40 /* Fourth */,
-				E8A51D402809C29900601B40 /* MainTabView */,
-				E8A51D432809C9BF00601B40 /* Text */,
-				E8A51D462809CE2500601B40 /* TextField */,
+				E8AB5386280AF1260053B549 /* SwiftDeveloper */,
+				E8AB5387280AF1360053B549 /* SwiftCourse2 */,
 				E80C27DC28082966002E135D /* Assets.xcassets */,
 				E80C27DE28082966002E135D /* Preview Content */,
 			);
@@ -202,6 +213,51 @@
 				E8A51D472809CE3400601B40 /* TextFieldView.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		E8AB5386280AF1260053B549 /* SwiftDeveloper */ = {
+			isa = PBXGroup;
+			children = (
+				E8A51D3B2809B60800601B40 /* First */,
+				E8A51D3C2809B61200601B40 /* Second */,
+				E8A51D3A2809B5F800601B40 /* Third  */,
+				E8A51D3D2809B61800601B40 /* Fourth */,
+				E8A51D402809C29900601B40 /* MainTabView */,
+				E8A51D432809C9BF00601B40 /* Text */,
+				E8A51D462809CE2500601B40 /* TextField */,
+			);
+			path = SwiftDeveloper;
+			sourceTree = "<group>";
+		};
+		E8AB5387280AF1360053B549 /* SwiftCourse2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB5393280B07940053B549 /* Lessons */,
+				E8AB5394280B079B0053B549 /* Practice */,
+			);
+			path = SwiftCourse2;
+			sourceTree = "<group>";
+		};
+		E8AB5393280B07940053B549 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB5388280AF1540053B549 /* GesturesView.swift */,
+				E8AB538A280AF6AD0053B549 /* ListView.swift */,
+				E8AB538C280AFBB50053B549 /* ListView2.swift */,
+				E8AB538F280AFD930053B549 /* NavigationVIew.swift */,
+				E8AB5391280B029E0053B549 /* FormView.swift */,
+				E8AB5398280B0F9A0053B549 /* AlertView.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		E8AB5394280B079B0053B549 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB5396280B07D20053B549 /* TipCalculate.swift */,
+				E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,12 +391,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80C28032808831F002E135D /* SecondView.swift in Sources */,
+				E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */,
 				E8A51D452809C9CC00601B40 /* TextView.swift in Sources */,
+				E8AB5392280B029E0053B549 /* FormView.swift in Sources */,
+				E8AB5390280AFD930053B549 /* NavigationVIew.swift in Sources */,
 				E8A51D392809B1FB00601B40 /* ThirdView.swift in Sources */,
+				E8AB538D280AFBB50053B549 /* ListView2.swift in Sources */,
 				E8A51D372809B09900601B40 /* ActivityView.swift in Sources */,
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
 				E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */,
+				E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */,
+				E8AB5389280AF1540053B549 /* GesturesView.swift in Sources */,
 				E8A51D3F2809B68B00601B40 /* FourthView.swift in Sources */,
+				E8AB538B280AF6AD0053B549 /* ListView.swift in Sources */,
+				E8AB5399280B0F9A0053B549 /* AlertView.swift in Sources */,
 				E80C27D928082965002E135D /* SwiftUI_AppApp.swift in Sources */,
 				E8A51D482809CE3400601B40 /* TextFieldView.swift in Sources */,
 			);
