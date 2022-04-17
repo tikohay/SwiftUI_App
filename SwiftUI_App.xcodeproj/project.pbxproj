@@ -29,6 +29,7 @@
 		E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5396280B07D20053B549 /* TipCalculate.swift */; };
 		E8AB5399280B0F9A0053B549 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB5398280B0F9A0053B549 /* AlertView.swift */; };
 		E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */; };
+		E8E61B0F280C4A5700D29A08 /* ModifiersLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		E8AB5396280B07D20053B549 /* TipCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculate.swift; sourceTree = "<group>"; };
 		E8AB5398280B0F9A0053B549 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCountry.swift; sourceTree = "<group>"; };
+		E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersLesson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 				E8AB538F280AFD930053B549 /* NavigationVIew.swift */,
 				E8AB5391280B029E0053B549 /* FormView.swift */,
 				E8AB5398280B0F9A0053B549 /* AlertView.swift */,
+				E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				E8A51D392809B1FB00601B40 /* ThirdView.swift in Sources */,
 				E8AB538D280AFBB50053B549 /* ListView2.swift in Sources */,
 				E8A51D372809B09900601B40 /* ActivityView.swift in Sources */,
+				E8E61B0F280C4A5700D29A08 /* ModifiersLesson.swift in Sources */,
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
 				E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */,
 				E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */,

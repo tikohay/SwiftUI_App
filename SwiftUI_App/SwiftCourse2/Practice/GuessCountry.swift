@@ -64,9 +64,3 @@ struct GuessCountryView: View {
         }
     }
 }
-
-struct GuessCountry_Previews: PreviewProvider {
-    static var previews: some View {
-        GuessCountryView()
-    }
-}
