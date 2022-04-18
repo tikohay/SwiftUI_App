@@ -39,6 +39,7 @@
 		E8E61B20280C6C9300D29A08 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B1F280C6C9300D29A08 /* AddView.swift */; };
 		E8EEEFCA280D8E5400334972 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEEFC9280D8E5400334972 /* AnimationView.swift */; };
 		E8EEEFCC280D90EC00334972 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEEFCB280D90EC00334972 /* CustomTabBar.swift */; };
+		E8EEEFCF280DA70000334972 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEEFCE280DA70000334972 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		E8E61B1F280C6C9300D29A08 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		E8EEEFC9280D8E5400334972 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		E8EEEFCB280D90EC00334972 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		E8EEEFCE280DA70000334972 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +285,7 @@
 				E8AB5396280B07D20053B549 /* TipCalculate.swift */,
 				E8E61B0C280C3D1A00D29A08 /* GuessCountry.swift */,
 				E8E61B1E280C6C7F00D29A08 /* Expencies */,
+				E8EEEFCD280DA6E900334972 /* MyShop */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -312,6 +315,14 @@
 				E8E61B1F280C6C9300D29A08 /* AddView.swift */,
 			);
 			path = Expencies;
+			sourceTree = "<group>";
+		};
+		E8EEEFCD280DA6E900334972 /* MyShop */ = {
+			isa = PBXGroup;
+			children = (
+				E8EEEFCE280DA70000334972 /* RegistrationView.swift */,
+			);
+			path = MyShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +458,7 @@
 				E8E61B1B280C5E7D00D29A08 /* UserDefaultsView.swift in Sources */,
 				E80C28032808831F002E135D /* SecondView.swift in Sources */,
 				E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */,
+				E8EEEFCF280DA70000334972 /* RegistrationView.swift in Sources */,
 				E8E61B11280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift in Sources */,
 				E8EEEFCC280D90EC00334972 /* CustomTabBar.swift in Sources */,
 				E8A51D452809C9CC00601B40 /* TextView.swift in Sources */,

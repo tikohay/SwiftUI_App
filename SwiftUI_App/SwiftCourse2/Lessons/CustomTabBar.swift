@@ -80,9 +80,3 @@ struct CurvedShape: View {
             .rotationEffect(.init(degrees: 180))
     }
 }
-
-struct CurvedShape_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomTabBarView()
-    }
-}
