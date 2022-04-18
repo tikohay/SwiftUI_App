@@ -69,9 +69,3 @@ struct ExpenciesView: View {
         expenses.items.remove(atOffsets: offsets)
     }
 }
-
-struct ExpenciesView_Previews: PreviewProvider {
-    static var previews: some View {
-        ExpenciesView()
-    }
-}
