@@ -18,9 +18,3 @@ struct MyAnimationView: View {
             .animation(.linear)
     }
 }
-
-struct MyAnimationView_Previews: PreviewProvider {
-    static var previews: some View {
-        MyAnimationView()
-    }
-}

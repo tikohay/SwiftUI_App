@@ -38,6 +38,7 @@
 		E8E61B1D280C68AB00D29A08 /* Expencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B1C280C68AB00D29A08 /* Expencies.swift */; };
 		E8E61B20280C6C9300D29A08 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E61B1F280C6C9300D29A08 /* AddView.swift */; };
 		E8EEEFCA280D8E5400334972 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEEFC9280D8E5400334972 /* AnimationView.swift */; };
+		E8EEEFCC280D90EC00334972 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EEEFCB280D90EC00334972 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		E8E61B1C280C68AB00D29A08 /* Expencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expencies.swift; sourceTree = "<group>"; };
 		E8E61B1F280C6C9300D29A08 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		E8EEEFC9280D8E5400334972 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		E8EEEFCB280D90EC00334972 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 				E8E61B0E280C4A5700D29A08 /* ModifiersLesson.swift */,
 				E8E61B1A280C5E7D00D29A08 /* UserDefaultsView.swift */,
 				E8EEEFC9280D8E5400334972 /* AnimationView.swift */,
+				E8EEEFCB280D90EC00334972 /* CustomTabBar.swift */,
 				E8E61B17280C5B1C00D29A08 /* ViewsTransition */,
 				E8E61B14280C51BE00D29A08 /* ObservedPublishedEnvironment */,
 			);
@@ -445,6 +448,7 @@
 				E80C28032808831F002E135D /* SecondView.swift in Sources */,
 				E8AB5397280B07D20053B549 /* TipCalculate.swift in Sources */,
 				E8E61B11280C4E2C00D29A08 /* ObservedPublishedEnvironment.swift in Sources */,
+				E8EEEFCC280D90EC00334972 /* CustomTabBar.swift in Sources */,
 				E8A51D452809C9CC00601B40 /* TextView.swift in Sources */,
 				E8AB5392280B029E0053B549 /* FormView.swift in Sources */,
 				E8E61B1D280C68AB00D29A08 /* Expencies.swift in Sources */,
