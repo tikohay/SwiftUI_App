@@ -12,10 +12,12 @@ struct AddView: View {
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = ""
-    @State private var num = 0
+    
+    @Environment(\.presentationMode) var presentation
+    
+    @ObservedObject var expenses: Expenses
     
     let types = ["Busines", "Personal"]
-    
     
     var body: some View {
         NavigationView {
@@ -31,14 +33,22 @@ struct AddView: View {
                     }
                 }
                 TextField("Price", text: $amount)
+                    .keyboardType(.numberPad)
             }
             .navigationBarTitle("Add")
+            .navigationBarItems(trailing: Button("Save") {
+                if let actualAmount = Int(self.amount) {
+                    let expense = ExpenceItem(name: name, type: type, amount: actualAmount)
+                    expenses.items.append(expense)
+                    presentation.wrappedValue.dismiss()
+                }
+            })
         }
     }
 }
 
-struct AddView_Previews: PreviewProvider {
-    static var previews: some View {
-        AddView()
-    }
-}
+//struct AddView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AddView()
+//    }
+//}
