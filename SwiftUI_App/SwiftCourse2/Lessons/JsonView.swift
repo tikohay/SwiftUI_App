@@ -63,9 +63,3 @@ class Api {
         }.resume()
     }
 }
-
-struct JsonView_Previews: PreviewProvider {
-    static var previews: some View {
-        JsonView()
-    }
-}
