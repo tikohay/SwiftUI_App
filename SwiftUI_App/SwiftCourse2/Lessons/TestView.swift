@@ -7,49 +7,48 @@
 
 import SwiftUI
 
-struct TestView: View {
+struct Person: Identifiable {
+    var id = UUID()
+    var name: String
+    var lastname: String
+}
+
+struct PersonRow: View {
+    
+    var person: Person
     
     var body: some View {
-        ZStack {
-            Color(UIColor.red.cgColor)
-                .edgesIgnoringSafeArea(.all)
-            HStack {
-                VStack(alignment: .leading, spacing: 2) {
-                    Rectangle().frame(width: 100, height: 100)
-                        .foregroundColor(.yellow)
-                    HStack(alignment: .top, spacing: 1) {
-                        Rectangle().frame(width: 100, height: 100)
-                            .foregroundColor(.yellow)
-                        VStack(spacing: 1) {
-                            ZStack(alignment: .top) {
-                                Rectangle().frame(width: 100, height: 100)
-                                    .foregroundColor(.yellow)
-                                VStack(alignment: .leading) {
-                                    HStack() {
-                                        Text("hello")
-                                        Text("hey")
-                                        Spacer()
-                                    } .padding([.top, .leading], 5)
-                                    Text("hello")
-                                    Text("hey")
-                                }
-                            }
-                            Rectangle().frame(width: 100, height: 100)
-                                .foregroundColor(.yellow)
-                        }
-                    }
-                    Spacer()
-                } .padding(.leading, 5)
-                
-                Spacer()
-                
-                VStack {
-                    Rectangle().frame(width: 100, height: 100)
-                        .foregroundColor(.yellow)
-                    Spacer()
-                } .padding(.trailing, 5)
-                
+        Text(person.name)
+    }
+}
+
+struct TestView: View {
+    
+    @State private var text = ""
+    @State private var persons = [Person(name: "Dwayne", lastname: "Johnson"),
+                                  Person(name: "Dwayne", lastname: "Johnson"),
+                                  Person(name: "Dwayne", lastname: "Johnson")]
+    
+    var body: some View {
+        VStack {
+            NavigationView {
+                List (persons) { person in
+                    PersonRow(person: person)
+                }
             }
+        }
+    }
+}
+
+struct ButtonView: View {
+    
+    @Binding var text: String
+    
+    var body: some View {
+        Button {
+            self.text = "hey"
+        } label: {
+            Text("second button")
         }
     }
 }
