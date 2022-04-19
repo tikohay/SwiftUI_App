@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8047BED280EE06E00423EB2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8047BEC280EE06E00423EB2 /* MenuView.swift */; };
 		E80C27D928082965002E135D /* SwiftUI_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C27D828082965002E135D /* SwiftUI_AppApp.swift */; };
 		E80C27DB28082965002E135D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C27DA28082965002E135D /* ContentView.swift */; };
 		E80C27DD28082966002E135D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80C27DC28082966002E135D /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8047BEC280EE06E00423EB2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E80C27D528082965002E135D /* SwiftUI_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80C27D828082965002E135D /* SwiftUI_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppApp.swift; sourceTree = "<group>"; };
 		E80C27DA28082965002E135D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				E8EEEFCE280DA70000334972 /* RegistrationView.swift */,
+				E8047BEC280EE06E00423EB2 /* MenuView.swift */,
 			);
 			path = MyShop;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				E80C27DB28082965002E135D /* ContentView.swift in Sources */,
 				E8A51D422809C2B000601B40 /* MainTabView.swift in Sources */,
 				E8E61B0D280C3D1A00D29A08 /* GuessCountry.swift in Sources */,
+				E8047BED280EE06E00423EB2 /* MenuView.swift in Sources */,
 				E8E61B13280C51B100D29A08 /* UserSettings.swift in Sources */,
 				E8AB5389280AF1540053B549 /* GesturesView.swift in Sources */,
 				E8EEEFCA280D8E5400334972 /* AnimationView.swift in Sources */,
